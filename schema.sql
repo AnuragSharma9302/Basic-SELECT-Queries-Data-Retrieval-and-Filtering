@@ -9,7 +9,7 @@ CREATE TABLE products (
     stock_quantity INT DEFAULT 0 CHECK (stock_quantity >= 0),
     is_available BOOLEAN DEFAULT TRUE,
     category TEXT NOT NULL,
-    adden_on DATE DEFAULT CURRENT_DATE,
+    added_on DATE DEFAULT CURRENT_DATE,
     last_update TIMESTAMP DEFAULT NOW()
 );
 
