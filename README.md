@@ -155,7 +155,7 @@ Below is the ER diagram (also provided as `er-diagram.png`):
 
 ## 🎯 Outcome
 
-By completing this task, you will:
+Learnings by completing this task.
 
 * Understand **data extraction** with `SELECT`.
 * Apply **filters** with `WHERE`, `LIKE`, `IN`, `BETWEEN`, `AND`, `OR`.
@@ -163,6 +163,4 @@ By completing this task, you will:
 * Apply **aggregation and grouping** (`GROUP BY`, `HAVING`).
 * Build clean, reusable SQL scripts for real-world projects.
 
----
 
-✨ Happy Querying! ✨
