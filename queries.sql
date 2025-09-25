@@ -97,7 +97,7 @@ SELECT * FROM products WHERE stock_quantity BETWEEN 30 AND 80;
 
 
 -- 3: products added in a date range (adjust dates as needed)
-SELECT * FROM products WHERE adden_on BETWEEN '2025-09-01' AND '2025-09-30';
+SELECT * FROM products WHERE added_on BETWEEN '2025-09-01' AND '2025-09-30';
 
 
 -- 4: product_id between 5 and 9
