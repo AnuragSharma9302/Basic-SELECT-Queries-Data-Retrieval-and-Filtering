@@ -44,7 +44,7 @@ Task3/
 | stock_quantity | INT           | DEFAULT 0, CHECK (stock_quantity>=0) |
 | is_available   | BOOLEAN       | DEFAULT TRUE                         |
 | category       | TEXT          | NOT NULL                             |
-| adden_on       | DATE          | DEFAULT CURRENT_DATE                 |
+| added_on       | DATE          | DEFAULT CURRENT_DATE                 |
 | last_update    | TIMESTAMP     | DEFAULT NOW()                        |
 
 ---
@@ -146,7 +146,7 @@ Below is the ER diagram (also provided as `er-diagram.png`):
 | stock_qty   |
 | is_available|
 | category    |
-| adden_on    |
+| added_on    |
 | last_update |
 +-------------+
 ```
